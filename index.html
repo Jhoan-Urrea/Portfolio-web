@@ -1,11 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <!-- MENU ENCABEZADO -->
+  <div class="header_container">
+    <header >
+      <div class = "logo">
+        <a href="#">JHOAN</a>
+      </div>
+      <nav id = "nav">
+        <ul>
+          <li><a href="#inicio">INICIO</a></li>
+          <li><a href="#sobremi">SOBRE MI</a></li>
+          <li><a href="#curriculum">CURRICULUM</a></li>
+          <li><a href="#portafolio">PORTAFOLIO</a></li>
+          <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+      </nav>
+      <div class="nav-responsive">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+  </div>
+
+  <!-- SECCION INICIO -->
+  <section id="inicio" class="inicio">
+    <div class="banner-container">
+      <div class="img-container">
+        <img src="images/perfil.png" alt="foto de JHOAN">
+      </div>
+      <h1>JHOAN URREA</h1>
+      <h2>Ingeniero de software</h2>
+      <div class="redes">
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
     
+  </section>
+
+  <!-- SECCION SOBRE MI -->
+  <section id="sobremi" class="sobremi">
+    <div class="section-container">
+      <h2>Sobre mi</h2>
+      <p><span>Hola, soy Jhoan Urrea</span> y soy estudiante de ingenieria de sistemas y computacion en la Universidad del Quindío</p>
+      <div class="raw">
+        <!-- DATOS PERSONALES-->
+        <div class="col">
+          <h3>Datos personales</h3>
+          <ul>
+            <li>
+              <strong>Cumpleaños</strong>
+              15-01-1980
+            </li>
+            <li>
+              <strong>Telefono</strong>
+              314 9438113
+            </li>
+            <li>
+              <strong>Email</strong>
+              js.urrea03@gmail.com
+            </li>
+            <li>
+              <strong>Nacionalidad</strong>
+              Colombiano
+            </li>
+            <li>
+              <strong>Residencia</strong>
+              Armenia, Quindío
+            </li>
+            <li>
+              <strong>Cargo</strong>
+              Desarrollador
+            </li>
+          </ul>
+        </div>
+
+        <!-- INTERESES -->
+        <div class="col">
+          <h3>Intereses</h3>
+          <div class="contenedor-intereses">
+            <div class="interes">
+              <i class="fa-solid fa-headphones"></i>
+              <span>MUSICA</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-campground"></i>
+              <span>ACAMPAR</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-person-hiking"></i>
+              <span>SENDERISMO</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-code"></i>
+              <span>PROGRAMAR</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-plane"></i>
+              <span>VIAJAR</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-dumbbell"></i>
+              <span>GIMNASIO</span>
+            </div>
+            <div class="interes">
+              <i class="fa-solid fa-camera"></i>
+              <span>FOTOGRAFIA</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <button>
+        Descargar cv <i class="fa-solid fa-download"></i>
+        <span class="overlay"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- SECCION SKILLS -->
+  <section id="skills" class="skills">
+    <div class="section-container">
+      <h2>Skills</h2>
+      <div class="raw">
+        <!-- TECHNICAL SKILLS-->
+        <div class="col">
+          <h3>Technical Skills</h3>
+          <div class="skill">
+            <span>JAVASCRIPT</span>
+            <div class="skill-bar">
+              <div class="progress javascript">
+                <span>50%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>HTML & CSS</span>
+            <div class="skill-bar">
+              <div class="progress htmlcss">
+                <span>60%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>JAVA</span>
+            <div class="skill-bar">
+              <div class="progress java">
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>SQL</span>
+            <div class="skill-bar">
+              <div class="progress sql">
+                <span>65%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PROFESSIONAL SKILLS-->
+        <div class="col">
+          <h3>Professional Skills</h3>
+          <div class="skill">
+            <span>Comunicación</span>
+            <div class="skill-bar">
+              <div class="progress comunicacion">
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Trabajo en equipo</span>
+            <div class="skill-bar">
+              <div class="progress trabajoEquipo">
+                <span>75%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Creatividad</span>
+            <div class="skill-bar">
+              <div class="progress creatividad">
+                <span>90%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Dedicacion</span>
+            <div class="skill-bar">
+              <div class="progress dedicacion">
+                <span>75%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Liderazgo</span>
+            <div class="skill-bar">
+              <div class="progress liderazgo" >
+                <span>80%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>Disposición</span>
+            <div class="skill-bar">
+              <div class="progress disposicion">
+                <span>95%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECCION CURRICULUM -->
+  <section class="curriculum" id="curriculum">
+    <div class="section-container">
+      <h2>Curriculum</h2>
+      <div class="raw">
+        <div class="col left">
+          <h3>Educación</h3>
+          <div class="left item">
+            <h4>Ingenieria de software</h4>
+            <span class="sitio">Universidad del Quindío</span>
+            <span class="fecha">2021 - actualidad </span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, optio. Dolor, placeat dolorem neque ipsum error doloremque, nesciunt quae, esse voluptatum quaerat necessitatibus minus sapiente recusandae architecto saepe tempora deleniti?</p>
+            <div class="conector_i">
+              <div class="circulo_i">
+
+              </div>
+            </div>
+          </div>
+          <div class="left item">
+            <h4>Desarrollador Front-End</h4>
+            <span class="sitio">Alura + Oracle Next Educación</span>
+            <span class="fecha">2024 - actualidad </span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, optio. Dolor, placeat dolorem neque ipsum error doloremque, nesciunt quae, esse voluptatum quaerat necessitatibus minus sapiente recusandae architecto saepe tempora deleniti?</p>
+            <img src="images/alura.png" alt="">
+            <div class="conector_i">
+              <div class="circulo_i">
+                
+              </div>
+            </div>
+          </div>
+          <div class="left item">
+            <h4>Manipulacion e implementacion de equipos electronicos industriales</h4>
+            <span class="sitio"> SENA </span>
+            <span class="fecha">2019 - 2020 </span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, optio. Dolor, placeat dolorem neque ipsum error doloremque, nesciunt quae, esse voluptatum quaerat necessitatibus minus sapiente recusandae architecto saepe tempora deleniti?</p>
+            <img src="images/Sena.png" alt="">
+            <div class="conector_i">
+              <div class="circulo_i">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col right">
+          <h3>Experiencia </h3>
+          <div class="left item">
+            <h4>Desarrollador Back-End</h4>
+            <span class="sitio">Universidad del Quindío</span>
+            <span class="fecha">2021 - actualidad </span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, optio. Dolor, placeat dolorem neque ipsum error doloremque, nesciunt quae, esse voluptatum quaerat necessitatibus minus sapiente recusandae architecto saepe tempora deleniti?</p>
+            <div class="conector_i">
+              <div class="circulo_i">
+
+              </div>
+            </div>
+          </div>
+          <div class="right item">
+            <h4>Desarrollador Front-End</h4>
+            <span class="sitio">Alura + Oracle Next Educación</span>
+            <span class="fecha">2024 - actualidad </span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, optio. Dolor, placeat dolorem neque ipsum error doloremque, nesciunt quae, esse voluptatum quaerat necessitatibus minus sapiente recusandae architecto saepe tempora deleniti?</p>
+            <img src="images/alura.png" alt="alura logo">
+            <div class="conector_i">
+              <div class="circulo_i">
+                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
