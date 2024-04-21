@@ -1,0 +1,185 @@
+
+/* SECCION S K I L L S */
+
+.skills{
+    background-image: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1));
+    background-image: var(--bg-image);
+    background-size: cover;
+    color: var(--text-color);
+    padding: 50px;
+  }
+  
+  .skills .section-container{
+    padding: 5%;
+    background-color: var(--dark-color);
+    max-width: 100%;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  .skills h2{
+    font-size: 48px;
+    font-family: var(--font-text-titles);
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .skills .raw{
+    display: flex;
+  }
+  .skills .raw .col{
+    width: 50%;
+    padding: 0 20px;
+    margin: 0 20px;
+  }
+  
+  .skills .raw .col h3{
+    font-size: 28px;
+    font-family: var(--font-text-titles);
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .skills .skill .skill-bar{
+    height: 8px;
+    width: 100%;
+    background-color: var(--skill-bar-color);
+    border-radius: 50px;
+    position: relative;
+    margin-bottom: 30px;
+
+  }
+  
+  .skills .skill .progress{
+    background-color: var(--decoration-color);
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+  }
+  
+  .skills .skill .skill-bar span{
+    color: var(--progress-value-color);
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: var(--decoration-color);
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+  
+  }
+  
+  /*Estas clases se agregaran dinamicamente mediante javascript*/
+  .skills .skill .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+  }
+  
+  @keyframes javascript{
+    0%{width: 0%;}
+    100%{width: 50%;}
+  }
+  .skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+  }
+  
+  @keyframes htmlcss{
+    0%{width: 0%;}
+    100%{width: 60%;}
+  }
+  .skills .skill .java{
+    width: 0%;
+    animation: 2s java forwards;
+  }
+  
+  @keyframes java{
+    0%{width: 0%;}
+    100%{width: 80%;}
+  }
+  
+  .skills .skill .sql{
+    width: 0%;
+    animation: 2s sql forwards;
+  }
+  
+  @keyframes sql{
+    0%{width: 0%;}
+    100%{width: 65%;}
+  }
+  .skills .skill .python{
+    width: 0%;
+    animation: 2s python forwards;
+  }
+  
+  @keyframes python{
+    0%{width: 0%;}
+    100%{width: 30%;}
+  }
+  .skills .skill .comunicacion{
+    width: 0%;
+    animation: 2s comunicacion forwards;
+  }
+  
+  @keyframes comunicacion{
+    0%{width: 0%;}
+    100%{width: 80%;}
+  }
+  .skills .skill .trabajoEquipo{
+    width: 0%;
+    animation: 2s trabajoEquipo forwards;
+  }
+  
+  @keyframes trabajoEquipo{
+    0%{width: 0%;}
+    100%{width: 75%;}
+  }
+  .skills .skill .creatividad{
+    width: 0%;
+    animation: 2s creatividad forwards;
+  }
+  
+  @keyframes creatividad{
+    0%{width: 0%;}
+    100%{width: 90%;}
+  }
+  .skills .skill .dedicacion{
+    width: 0%;
+    animation: 2s dedicacion forwards;
+  }
+  
+  @keyframes dedicacion{
+    0%{width: 0%;}
+    100%{width: 75%;}
+  }
+  
+  .skills .skill .liderazgo{
+    width: 0%;
+    animation: 2s liderazgo forwards;
+  }
+  
+  @keyframes liderazgo{
+    0%{width: 0%;}
+    100%{width: 80%;}
+  }
+  .skills .skill .disposicion{
+    width: 0%;
+    animation: 2s disposicion forwards;
+  }
+  
+  @keyframes disposicion{
+    0%{width: 0%;}
+    100%{width: 95%;}
+  }
+  

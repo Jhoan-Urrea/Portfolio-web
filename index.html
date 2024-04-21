@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Portafolio</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/aboutMe.css">
+  <link rel="stylesheet" href="css/skills.css">
+  <link rel="stylesheet" href="css/curriculum.css">
+  <link rel="stylesheet" href="css/proyects.css">
+  <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -18,13 +24,13 @@
         <ul>
           <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
           <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-          <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-          <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-          <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+          <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+          <li><a href="#curriculum" onclick="seleccionar()">FORMACIÓN</a></li>
+          <li><a href="#portafolio" onclick="seleccionar()">PROYECTOS</a></li>
           <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
         </ul>
       </nav>
-      <div class="nav-responsive"  onclick="mostrarOcultarMenu()">
+      <div class="nav-responsive"  onclick="mostrarOcultarMenu();">
         <i class="fa-solid fa-bars"></i>
       </div>
     </header>
@@ -53,7 +59,7 @@
   <section id="sobremi" class="sobremi">
     <div class="section-container">
       <h2>Sobre mi</h2>
-      <p><span>Hola, soy Jhoan Urrea</span> estudiante de ingeniería de sistemas y computación en la Universidad del Quindío, tengo habilidades de liderazgo y trabajo en equipo, experiencia en programación con Java, manejo de estructuras de datos, conocimientos en análisis y diseño de sistemas. Me motiva aprender cosas nuevas y estoy trabajando en mejorar mi nivel de inglés . Busco oportunidades en un entorno empresarial desafiante donde pueda aplicar mis habilidades y conocimientos. Si busca a alguien con una actitud positiva, habilidades de liderazgo y trabajo en equipo, estoy seguro de que puedo ser una gran adición a su equipo.</p>
+      <p><span>Hola, soy Jhoan Urrea</span> lorem estudiante de ingeniería de sistemas y computación en la Universidad del Quindío, tengo habilidades de liderazgo y trabajo en equipo, experiencia en programación con Java, manejo de estructuras de datos, conocimientos en análisis y diseño de sistemas. Me motiva aprender cosas nuevas y estoy trabajando en mejorar mi nivel de inglés . Busco oportunidades en un entorno empresarial desafiante donde pueda aplicar mis habilidades y conocimientos. Si busca a alguien con una actitud positiva, habilidades de liderazgo y trabajo en equipo, estoy seguro de que puedo ser una gran adición a su equipo.</p>
       <div class="raw">
         <!-- DATOS PERSONALES-->
         <div class="col">
@@ -61,11 +67,11 @@
           <ul>
             <li>
               <strong>Cumpleaños</strong>
-              15-01-1980
+              03-Junio
             </li>
             <li>
               <strong>Telefono</strong>
-              314 9438113
+              314 824 74**
             </li>
             <li>
               <strong>Email</strong>
@@ -77,7 +83,7 @@
             </li>
             <li>
               <strong>Residencia</strong>
-              Armenia, Quindío
+              Quindío
             </li>
             <li>
               <strong>Cargo</strong>
@@ -107,10 +113,6 @@
               <span>PROGRAMAR</span>
             </div>
             <div class="interes">
-              <i class="fa-solid fa-plane"></i>
-              <span>VIAJAR</span>
-            </div>
-            <div class="interes">
               <i class="fa-solid fa-dumbbell"></i>
               <span>GIMNASIO</span>
             </div>
@@ -129,14 +131,14 @@
     </div>
   </section>
 
-  <!-- SECCION SKILLS -->
+  <!-- SECCION HABILIDADES -->
   <section id="skills" class="skills">
     <div class="section-container">
-      <h2>Skills</h2>
+      <h2>Habilidades</h2>
       <div class="raw">
         <!-- TECHNICAL SKILLS-->
         <div class="col">
-          <h3>Technical Skills</h3>
+          <h3>Tecnicas</h3>
           <div class="skill">
             <span>JAVASCRIPT</span>
             <div class="skill-bar">
@@ -169,10 +171,18 @@
               </div>
             </div>
           </div>
+          <div class="skill">
+            <span>PYTHON</span>
+            <div class="skill-bar">
+              <div class="progress python">
+                <span>30%</span>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- PROFESSIONAL SKILLS-->
         <div class="col">
-          <h3>Professional Skills</h3>
+          <h3>Blandas</h3>
           <div class="skill">
             <span>Comunicación</span>
             <div class="skill-bar">
@@ -225,166 +235,231 @@
       </div>
     </div>
   </section>
-  <!-- SECCION CURRICULUM -->
+  
+  <!-- SECCION FORMACIÓN -->
   <section class="curriculum" id="curriculum">
     <div class="section-container">
-      <h2>Curriculum</h2>
-      <div class="raw">
-
-        <div class="education">
-          <h3>Educación</h3>
-          <div class="box">
-            <div class="left-item">
-              <h4>Ingenieria de software</h4>
-              <span class="sitio">Universidad del Quindío</span>
-              <span class="fecha">2021 - actualidad </span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, optio. Dolor, placeat dolorem neque ipsum error doloremque, nesciunt quae, esse voluptatum quaerat necessitatibus minus sapiente recusandae architecto saepe tempora deleniti? lorem</p>
-              <div class="conector_i">
-                <div class="circulo_i">
-  
-                </div>
-              </div>
-            </div>
-            <div class="logo">
-              <img src="images/uq.png" alt="">
-            </div>
-          </div>
-          
-          <div class="box">
-              <div class="left-item">
-                <h4>Desarrollador Front-End</h4>
-                <span class="sitio">Alura + Oracle Next Educación</span>
-                <span class="fecha">2024 - actualidad </span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, optio. Dolor, placeat dolorem neque ipsum error doloremque, nesciunt quae, esse voluptatum quaerat necessitatibus minus sapiente recusandae architecto saepe tempora deleniti? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, officiis dignissimos in nemo harum eveniet at praesentium debitis cum vitae dicta ab sed soluta pariatur repellendus? Omnis fugiat ab numquam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, quos! Necessitatibus voluptate cupiditate vitae praesentium, asperiores iure, unde sapiente quos, quam quas consequuntur commodi delectus inventore debitis. Id, quia eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dignissimos at inventore nam tempore consequuntur ut praesentium quod soluta deleniti quae voluptatum, voluptas beatae impedit, minus, sapiente aperiam ad saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ducimus animi nulla exercitationem, praesentium nisi, delectus quod odio officiis, labore dolorem rerum. Explicabo, aliquid fugiat assumenda iusto cupiditate reprehenderit dolore.</p>
-                
-                <div class="conector_i">
-                  <div class="circulo_i">
-                    
+      <h2>Formación</h2>
+        <div class="raw">
+          <div class="education">
+            <h3>Educación</h3>
+            <div class="items">
+              <div class="box">
+                <div class="header-item">
+                  <div class="logo">
+                    <img src="images/uq.png" alt="">
+                  </div>
+                  <div class="titles-item">
+                    <h4>Universidad del Quindío</h4>
                   </div>
                 </div>
               </div>
-            <div class="logo">
-              <img src="images/alura.png" alt="">
-            </div>
-          </div>
-
-          <div class="box">
-            <div class="left-item">
-              <h4>Manipulacion e implementacion de equipos electronicos industriales</h4>
-            <span class="sitio"> SENA </span>
-            <span class="fecha">2019 - 2020 </span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, optio. Dolor, placeat dolorem neque ipsum error doloremque, nesciunt quae, esse voluptatum quaerat necessitatibus minus sapiente recusandae architecto saepe tempora deleniti? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, officiis dignissimos in nemo harum eveniet at praesentium debitis cum vitae dicta ab sed soluta pariatur repellendus? Omnis fugiat ab numquam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, quos! Necessitatibus voluptate cupiditate vitae praesentium, asperiores iure, unde sapiente quos, quam quas consequuntur commodi delectus inventore debitis. Id, quia eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dignissimos at inventore nam tempore consequuntur ut praesentium quod soluta deleniti quae voluptatum, voluptas beatae impedit, minus, sapiente aperiam ad saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ducimus animi nulla exercitationem, praesentium nisi, delectus quod odio officiis, labore dolorem rerum. Explicabo, aliquid fugiat assumenda iusto cupiditate reprehenderit dolore.</p>
-              
-              <div class="conector_i">
-                <div class="circulo_i">
-                  
-                </div>
-              </div>
-            </div>
-          <div class="logo">
-            <img src="images/Sena.png" alt="">
-          </div>
-        </div>
     
-        </div>
+              <div class="box">
+                <div class="header-item">
+                  <div class="logo">
+                    <img src="images/alura.png" alt="">
+                  </div>
+                  <div class="titles-item">
+                    <h4>Alura Latam</h4>
+                  </div>
+                </div>
+              </div>  
 
-        <div class="experiencia">
-          <h3>Experiencia </h3>
+              <div class="box">
+                <div class="header-item">
+                  <div class="logo">
+                    <img src="images/Oracle-ONE.png" alt="Logo de ONE">
+                  </div>
+                  <div class="titles-item">
+                    <h4>Oracle Next Educación</h4>
+                  </div>
+                </div>
+              </div>  
+    
+              <div class="box">
+                <div class="header-item">
+                  <div class="logo">
+                    <img src="images/Sena.png" alt="">
+                  </div>
+                  <div class="titles-item">
+                  <h4>SENA</h4>
+                  </div>
+                </div>
+              </div>  
 
-          <div class="box">
-            <div class="left-item">
-              <h4>Desarrollador Back-End</h4>
-              <span class="sitio">Universidad del Quindío</span>
-              <span class="fecha">2021 - actualidad </span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, optio. Dolor, placeat dolorem neque ipsum error doloremque, nesciunt quae, esse voluptatum quaerat necessitatibus minus sapiente recusandae architecto saepe tempora deleniti? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, officiis dignissimos in nemo harum eveniet at praesentium debitis cum vitae dicta ab sed soluta pariatur repellendus? Omnis fugiat ab numquam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, quos! Necessitatibus voluptate cupiditate vitae praesentium, asperiores iure, unde sapiente quos, quam quas consequuntur commodi delectus inventore debitis. Id, quia eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dignissimos at inventore nam tempore consequuntur ut praesentium quod soluta deleniti quae voluptatum, voluptas beatae impedit, minus, sapiente aperiam ad saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ducimus animi nulla exercitationem, praesentium nisi, delectus quod odio officiis, labore dolorem rerum. Explicabo, aliquid fugiat assumenda iusto cupiditate reprehenderit dolore.</p>
+              <div class="box">
+                <div class="header-item">
+                  <div class="logo">
+                    <img src="images/platzi.svg" alt="Logo de ONE">
+                  </div>
+                  <div class="titles-item">
+                    <h4>Platzi</h4>
+                  </div>
+                </div>
+              </div>  
+              <div class="box">
+                <div class="header-item">
+                  <div class="logo">
+                    <img src="images/cisco.svg" alt="">
+                  </div>
+                  <div class="titles-item">
+                  <h4>CISCO</h4>
+                  </div>
+                </div>
+              </div>  
+
+            </div>
+          </div>
+          <div class="experiencia">
+            <h3>Experiencia </h3>
+            <div class="items">
+              <div class="item">
+                <div class="info-item">
+                  <div class="head-item">
+                    <div class="logo">
+                      <img src="images/uq.png" alt="">
+                    </div>
+                    <div class="titles">
+                      <h4>Desarrollador Back-End</h4>
+                    <span class="sitio"><i class="fa-solid fa-building"></i>&nbspUniversidad del Quindío</span>
+                    <span class="lugar"> &nbsp<i class="fa-solid fa-location-dot"></i>&nbspArmenia, Quindío </span>
+                    <span class="fecha">( 2021-1 - actualidad ) </span>
+                    </div>
+                  </div>
+                  <div class="description">
+                    <p>Durante el tiempo de formacion en la Universidad del Quindío he tenido la oportunidad de participar en una gran variedad de talleres y proyectos que han enriquecido mi formación como estudiante del programa de Ingeniería de Sistemas y Computación, desempeñandome en gran medida como Desarrollador Back-End con el lenguaje Java. A lo largo de mis siete semestres académicos, he adquirido habilidades técnicas, conocimientos teóricos y competencias prácticas que me han preparado para el entorno laboral. Algunos aspectos destacados de mi experiencia incluyen: Talleres especializados, Proyectos colaborativos, Investigacion y desarrollo, y Eventos y competencias. </p>
+                  </div>
+                </div>
+
+                <div class="abilities">
+                  <h4>Habilidades tecnicas</h4>
+                  <div class="list">
+                    <div class="ability">
+                      <i class="fa-brands fa-python"></i>
+                      <h5>PYTHON</h5>
+                    </div>
+                    <div class="ability">
+                      <i class="fa-brands fa-java"></i>
+                      <h5>JAVA</h5>
+                    </div>
+                    <div class="ability">
+                      <i class="fa-solid fa-database"></i>
+                      <h5>SQL</h5>
+                    </div>
+                    <div class="ability">
+                      <i class="fa-brands fa-git-alt"></i>
+                      <h5>GIT</h5>
+                    </div>
+                    <div class="ability">
+                      <i class="fa-brands fa-github"></i>
+                      <h5>GITHUB</h5>
+                    </div>
+                    <h4>Habilidades blandas</h4>
+                    <div class="list">
+                      <div class="ability">
+                        <i class="fa-solid fa-user-group"></i>
+                        <h5>Comunicación</h5>
+                      </div>
+                      <div class="ability">
+                        <i class="fa-solid fa-people-group"></i>
+                        <h5>Trabajo en equipo</h5>
+                      </div>
+                      <div class="ability">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <h5>Creatividad</h5>
+                      </div>
+                  </div>
+                </div>
+              </div>
               
-              <div class="conector_i">
-                <div class="circulo_i">
-                  
+            </div>
+            <div class="item">
+              <div class="info-item">
+                <div class="head-item">
+                  <div class="logo">
+                    <img src="images/alura.png" alt="Logo de alura">
+                  </div>
+                  <div class="titles">
+                    <h4>Desarrollador Front-End</h4>
+                  <span class="sitio"><i class="fa-solid fa-building"></i>&nbspAlura </span>
+                  <span class="lugar"> &nbsp<i class="fa-solid fa-laptop"></i>&nbspvirtual </span>
+                  <span class="fecha">( 2024/01 - actualidad ) </span>
+                  </div>
+                </div>
+                <div class="description">
+                  <p>Durante los últimos tres meses, he estado inmerso en un emocionante programa de formación en desarrollo web a través de la plataforma de cursos en línea llamada Alura Latam, gracias a la colaboracion de Oracle Next Eductacion, logre recibir una beca de estudio en esta plataforma. La modalidad de estudio ha sido virtual, y he recibido un sólido apoyo tanto en contenido teórico como en asesorías personalizadas. <br><br>
+
+                    Algunos aspectos destacados de mi experiencia incluyen: Contenido Teorico, Acompañamiento personalizado, y Desafios practicos.</p>
+                </div>
+              </div>
+
+              <div class="abilities">
+                <h4>Habilidades tecnicas</h4>
+                <div class="list">
+                  <div class="ability">
+                    <i class="fa-brands fa-square-js"></i>
+                    <h5>JAVASCRIPT</h5>
+                  </div>
+                  <div class="ability">
+                    <i class="fa-brands fa-html5"></i>
+                    <h5>HTML</h5>
+                  </div>
+                  <div class="ability">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h5>CSS</h5>
+                  </div>
+                
+                  <div class="ability">
+                    <i class="fa-brands fa-github"></i>
+                    <h5>GITHUB</h5>
+                  </div>
+                  <h4>Habilidades blandas</h4>
+                  <div class="list">
+                    <div class="ability">
+                      <i class="fa-solid fa-calendar-days"></i>
+                      <h5>Gestion de tiempo</h5>
+                    </div>
+                    <div class="ability">
+                      <i class="fa-solid fa-list-check"></i>
+                      <h5>Gestion de tareas</h5>
+                    </div>
+                    <div class="ability">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                      <h5>Creatividad</h5>
+                    </div>
                 </div>
               </div>
             </div>
-          <div class="logo">
-            <img src="images/uq.png" alt="">
-          </div>
-        </div>
-
-        <div class="box">
-          <div class="left-item">
-            <h4>Desarrollador Front-End</h4>
-            <span class="sitio">Alura + Oracle Next Educación</span>
-            <span class="fecha">2024 - actualidad </span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, optio. Dolor, placeat dolorem neque ipsum error doloremque, nesciunt quae, esse voluptatum quaerat necessitatibus minus sapiente recusandae architecto saepe tempora deleniti? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, officiis dignissimos in nemo harum eveniet at praesentium debitis cum vitae dicta ab sed soluta pariatur repellendus? Omnis fugiat ab numquam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, quos! Necessitatibus voluptate cupiditate vitae praesentium, asperiores iure, unde sapiente quos, quam quas consequuntur commodi delectus inventore debitis. Id, quia eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dignissimos at inventore nam tempore consequuntur ut praesentium quod soluta deleniti quae voluptatum, voluptas beatae impedit, minus, sapiente aperiam ad saepe. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ducimus animi nulla exercitationem, praesentium nisi, delectus quod odio officiis, labore dolorem rerum. Explicabo, aliquid fugiat assumenda iusto cupiditate reprehenderit dolore.</p>
             
-            <div class="conector_i">
-              <div class="circulo_i">
-                
-              </div>
-            </div>
           </div>
-        <div class="logo">
-          <img src="images/alura.png" alt="">
+          </div>
         </div>
-      </div>
-        
-          
-        </div>
-      </div>
     </div>
   </section>
 
-  <!-- SECCION PORTAFOLIO -->
+  <!-- SECCION PROYECTOS -->
   <section class="portafolio" id="portafolio">
     <div class="section-container">
-      <h2>PORTAFOLIO</h2>
+      <h2>Proyectos</h2>
       <div class="galeria">
         <div class="proyecto">
-          <img src="assets/decod_print.png" alt="imagen de un decodificador">
+          <img src="images/Numero_secreto.png" alt="Numero secreto">
           <div class="overlay">
-            <h3>Decodificador de texto</h3>
+            <h3>Numero secreto</h3>
             <p>javascript</p>
           </div>
         </div>
 
         <div class="proyecto">
-          <img src="assets/forca2_print.png" alt="imagen de un decodificador">
+          <img src="images/encriptadorTexto.png" alt="Encriptador de texto">
           <div class="overlay">
-            <h3>Decodificador de texto</h3>
+            <h3>Encriptador de texto</h3>
             <p>javascript</p>
           </div>
         </div>
 
-        <div class="proyecto">
-          <img src="assets/forca_print.png" alt="imagen de un decodificador">
-          <div class="overlay">
-            <h3>Decodificador de texto</h3>
-            <p>javascript</p>
-          </div>
-        </div>
 
-        <div class="proyecto">
-          <img src="assets/forca_print.png" alt="imagen de un decodificador">
-          <div class="overlay">
-            <h3>Decodificador de texto</h3>
-            <p>javascript</p>
-          </div>
-        </div>
-
-        <div class="proyecto">
-          <img src="assets/forca_print.png" alt="imagen de un decodificador">
-          <div class="overlay">
-            <h3>Decodificador de texto</h3>
-            <p>javascript</p>
-          </div>
-        </div>
-
-        <div class="proyecto">
-          <img src="assets/forca_print.png" alt="imagen de un decodificador">
-          <div class="overlay">
-            <h3>Decodificador de texto</h3>
-            <p>javascript</p>
-          </div>
-        </div>
 
       </div>
     </div>
@@ -410,16 +485,16 @@
         </div>
         <!--IMAGEN-->
         <div class="column">
-          <img src="assets/contact_image.png" alt="">
+          <img src="images/contact.jpg" alt="">
           <div class="info">
             <ul>
               <li>
                 <i class="fa-solid fa-envelope"></i>
-                Email: js.urrea@gmail.com
+                Correo: js.urrea@gmail.com
               </li>
               <li>
                 <i class="fa-solid fa-mobile-screen"></i>
-                Llamame: 3125432345
+                Llamame: +57 314 824 74**
               </li>
             </ul>
           </div>

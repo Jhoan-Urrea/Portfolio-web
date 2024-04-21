@@ -1,0 +1,117 @@
+/* S O B R E   M I*/
+
+.sobremi{
+    background-image: linear-gradient(to top, rgba(30,35,38,1), rgba(30,35,38,.8));
+    background-image: var(--bg-image);
+    background-size: cover;
+    color: var(--text-color);
+    padding: 50px;
+  }
+  
+  .sobremi .section-container{
+    padding: 5%;
+    max-width: 100%;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  .sobremi h2{
+    font-size: 48px;
+    font-family: var(--font-text-titles);
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .sobremi .section-container p{
+    font: 18px;
+    line-height: 22px;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  
+  .sobremi .section-container p span{
+    color: var(--decoration-color);
+    font-weight: bold;
+  }
+  
+  .sobremi .raw{
+    display: flex;
+  }
+  
+  .sobremi .raw .col{
+    width: 50%;
+  }
+  
+  .sobremi .raw .col h3{
+    font-size: 28px;
+    font-family: var(--font-text-titles);
+    margin-bottom: 25px;
+  }
+  
+  .sobremi .raw .col ul{
+    list-style: none;
+  }
+  
+  .sobremi .raw .col ul li{
+    margin: 12px 0;
+  }
+  
+  .sobremi .raw .col ul li strong{
+    display: inline-block;
+    color: var(--decoration-color);
+    width: 130px;
+  }
+  
+  .sobremi .raw .col ul li span{
+    background-color: var(--decoration-color);
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .sobremi .raw .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .sobremi .raw .col .contenedor-intereses .interes{
+    width: 140px;
+    height: 100px;
+    background-color: var(--bg-item-color);
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+  }
+  .sobremi .raw .col .contenedor-intereses .interes span{
+    margin: 3px 3px;
+  }
+  
+  .sobremi .raw .col .contenedor-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .sobremi button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid var(--button-color);
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding:  10px 22px;
+    font-size: 16px;
+    color: var(--button-color);
+    position: relative;
+    z-index: 10;
+  }
+  .sobremi button:hover{
+    color: var(--text-nav-footer-color);
+    background-color: var(--decoration-color);
+    border-color:var(--decoration-color) ;
+  }
+  

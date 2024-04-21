@@ -1,0 +1,98 @@
+
+/* SECCION C O N T A C T O  */
+
+.contacto{
+    background-image: var(--bg-image);
+    background-size: cover;
+    color: var(--text-color);
+    padding: 50px;
+  }
+  
+  .contacto .section-container{
+    padding: 5%;
+    max-width: 100%;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  .contacto h2{
+    font-size: 48px;
+    font-family: var(--font-text-titles);
+    text-align: center;
+    padding: 20px 0;
+  }
+  .contacto .raw{
+    display: flex;
+  }
+  
+  .contacto .column{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .contacto .column input, .contacto .column textarea{
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: var(--bg-item-color);
+    color: var(--text-color);
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  .contacto button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid var(--button-color);
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding:  10px 22px;
+    font-size: 16px;
+    color: var(--text-color);
+    position: relative;
+    z-index: 10;
+  }
+  
+.contacto button:hover{
+    color: var(--text-nav-footer-color);
+    background-color: var(--decoration-color);
+    border-color:var(--decoration-color) ;
+}
+  
+  .contacto .column {
+    text-align:  center;
+    width: 50%;
+    background-size: cover;
+  }
+  
+  .contacto .column img{
+    width: 80%;
+
+  }
+  
+  .contacto .column .info{
+    align-content: center;
+    position: absolute;
+    top: 40%;
+    background-color: #ffffffa9;
+    padding: 15px;
+    width: 300px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .contacto .column .info ul{
+    list-style: none;
+  }
+  .contacto .column .info ul li{
+    margin-bottom: 20px;
+  }
+  .contacto .column .info ul li i{
+    color: var(--decoration-color);
+    display: inline-block;
+    margin-left: 20px;
+  }
+  

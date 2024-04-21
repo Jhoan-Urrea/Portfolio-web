@@ -1,0 +1,78 @@
+/* SECCION I N I C I O */
+.inicio{
+    margin-top: 20px;
+    background-image: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1));
+    background-image: var(--bg-image);
+    background-size: cover;
+    height: 100vh;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+  }
+  
+  .inicio .banner-container{
+    display: flex;
+    padding: 50px;
+    background-color: var(--bg-profile);
+    max-width: 70%;
+    margin: auto;
+    align-items: center;
+    border-radius: 40px;
+  }
+  
+  .inicio .banner-container .datos{
+    text-align: center;
+  }
+  
+  
+  .inicio .banner-container .img-container{
+    width: fit-content;
+    align-items: center;
+  }
+  
+  .inicio .banner-container img{
+  
+    border: 10px solid var(--decoration-color);
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 100%;
+  
+  }
+  
+  
+  .inicio .banner-container .datos h1{
+  text-align: center;
+    margin: 15px;
+    font-size: 45px;
+    font-family: var(--font-text-titles);
+  }
+  
+  .inicio .banner-container .datos h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  .inicio .banner-container .datos .redes a{
+    text-align: center;
+    color: var(--icon-color);
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid var(--icon-color);
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 30px 5px;
+    font-size: 20px;
+    transition: .3s;
+  
+  }
+  .inicio .banner-container .redes a:hover{
+    color: var(--text-nav-footer-color);
+    background-color: var(--decoration-color);
+    border-color:var(--decoration-color) ;
+  }
+  
+    
